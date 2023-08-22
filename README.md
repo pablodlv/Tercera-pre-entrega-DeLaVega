@@ -1,4 +1,4 @@
-# Tercera-pre-entrega-DeLaVega
+# RE-LIC
 
 La app es un sistema de consulta y carga de dos tipos de publicaciones: remates judiciales y licitaciones.
 
