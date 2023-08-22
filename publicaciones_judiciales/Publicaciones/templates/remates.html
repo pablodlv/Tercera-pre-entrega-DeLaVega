@@ -1,0 +1,23 @@
+{% extends "padre.html" %}
+
+{% load static %}
+
+{% block contenido_hero %} 
+<div class="masthead-subheading">Consulta</div>
+<div class="masthead-heading text-uppercase">Remates</div>
+<div class="masthead-subheading">Buscá el remate en el listado o cargá uno nuevo</div>
+
+{% endblock %}
+
+{% block listado %} 
+<h2>Listado de remates</h2>
+<br>
+<ul>
+    {% for remate in listado_remates %}
+        <li>{{ remate.bien }} - ${{ remate.base }} - {{ remate.fecha }} - {{ remate.lugar }}</li>
+    {% endfor %}
+</ul>
+<br>
+<a class="btn btn-warning btn-xl text-uppercase" href="{% url 'carga_remates' %}">Cargar Remate</a>
+<a class="btn btn-success btn-xl text-uppercase" href="{% url 'busqueda_remates' %}">Buscar Remate</a>
+{% endblock %}
