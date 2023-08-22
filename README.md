@@ -8,4 +8,4 @@ Después de implementar restricción con logueo los clientes sólo pueden listar
 
 Se comienza en http://127.0.0.1:8000/ y se puede navegar en las "vistas publicas" de remates, licitaciones y martilleros.
 
-Hay dos vistas sólo para operadores, la de clientes (http://127.0.0.1:8000/Publicaciones/clientes/) y la de operadores (http://127.0.0.1:8000/Publicaciones/operadores/) en las que puede consultar y cargar esos registros.
+Hay dos vistas sólo para operadores, la de clientes (/Publicaciones/clientes/) y la de operadores (/Publicaciones/operadores/) en las que puede consultar y cargar esos registros.
